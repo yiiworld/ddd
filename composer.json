@@ -1,0 +1,40 @@
+{
+    "name": "vova07/DDD",
+    "description": "The PHP extension with common DDD files.",
+    "type": "extension",
+    "keywords": [
+        "extension",
+        "ddd",
+        "entity",
+        "value object",
+        "common"
+    ],
+    "homepage": "https://github.com/vova07/DDD",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Crudu Vasile",
+            "email": "bazillio07@yandex.ru",
+            "homepage": "https://github.com/vova07",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/vova07/DDD/issues?state=open",
+        "source": "https://github.com/vova07/DDD"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vova07\\DDD": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
